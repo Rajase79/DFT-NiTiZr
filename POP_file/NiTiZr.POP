@@ -4,8 +4,15 @@ $ Thermodynamic data *****************************************************
 $HM :- Enthalpy of mixing of liquid (k//g-atom)
 $Enthalpy of mixing of liquid 
 $Zr-Ni
-$Arpshofen-1991
-$T= 1740K
+TABLE_HEAD 1
+CREATE_NEW_EQUILIBRIUM @@,1
+CHANGE_STATUS PHASE LIQUID=FIX 1
+SET_CONDITION P=P0 T=1740 X(ZR)=@1
+SET_REFERENCE_STATE NI LIQUID,,,
+SET_REFERENCE_STATE ZR LIQUID,,,
+COMMENT [Arpshofen-1991] 
+LABEL_DATA 
+EXPERIMENT HM(LIQ)=@2:10%
 $X(Zr)  (-HM)
 0.0474  10.16
 0.0876  18.08
