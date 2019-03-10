@@ -33,6 +33,19 @@ $T=1742K
 0.3196  52.07
 0.3304  53.92
 
+$ Phase diagram data *****************************************************
+
+$ Congruent points
+
+$Ti-Zr phase diagram
+CREATE_NEW_EQUILIBRIUM 100,1
+CHANGE_STATUS PHASE LIQUID BCC=FIX 1
+SET_CONDITION P=P0 X(LIQUID,ZR)-X(BCC,ZR)=0
+SET_ALTERNATE_CONDITION X(LIQUID,ZR)=0.29 X(BCC,ZR)=0.29
+COMMENT [1987Mur], Assessed
+LABEL_DATA ASPL
+EXPERIMENT T=1813:20
+SET_ALL_START_VALUES 1813 Y
 
 
 
