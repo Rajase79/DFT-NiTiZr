@@ -1,1 +1,17 @@
+$ Ni-Ti-Zr .POP file 
+
+$ Thermodynamic data *****************************************************
+$HM :- Enthalpy of mixing of liquid (k//g-atom)
+$Enthalpy of mixing of liquid 
+$Zr-Ni
+$Arpshofen-1991
+$X(Zr)   (-HM T= 1740K)
+0.0474   10.16
+0.0876   18.08
+0.1264   25.16
+0.1619   31.80
+0.1916   36.56
+0.2188   40.62
+0.2485   44.44
+
 
